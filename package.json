@@ -1,0 +1,35 @@
+{
+  "name": "state-based-json-parser",
+  "version": "1.0.0",
+  "description": "Parse JSON value from string, accepting partial match.",
+  "keywords": [
+    "JSON",
+    "parser",
+    "partial string",
+    "partial match",
+    "state based",
+    "micro"
+  ],
+  "homepage": "https://github.com/ErikOnBike/state-based-json-parser.git",
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Erik Stel",
+    "url": "https://www.codeparadise.nl"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ErikOnBike/state-based-json-parser"
+  },
+  "scripts": {
+    "test": "nyc tape test.js && eslint index.js test.js"
+  },
+  "dependencies": {
+    "state-based-string-parser": "^1"
+  },
+  "devDependencies": {
+    "eslint": "3",
+    "nyc": "^11.4.1",
+    "tape": "4"
+  }
+}
