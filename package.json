@@ -16,6 +16,7 @@
     "name": "Erik Stel",
     "url": "https://www.codeparadise.nl"
   },
+  "jsnext:main": "index.js",
   "main": "index.js",
   "repository": {
     "type": "git",
