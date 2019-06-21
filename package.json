@@ -1,6 +1,6 @@
 {
   "name": "state-based-json-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse JSON value from string, accepting partial match.",
   "keywords": [
     "JSON",
