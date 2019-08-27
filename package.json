@@ -1,6 +1,6 @@
 {
   "name": "state-based-json-parser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parse JSON value from string, accepting partial match.",
   "keywords": [
     "JSON",
@@ -29,7 +29,7 @@
     "state-based-string-parser": "^1"
   },
   "devDependencies": {
-    "eslint": "^5",
+    "eslint": "^6",
     "nyc": "^14",
     "tape": "^4",
     "lodash": ">=4.17.13"
